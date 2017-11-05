@@ -1,0 +1,19 @@
+{
+  "name": "pllplayer",
+  "version": "1.0.0",
+  "description": "PLLPlayer",
+  "main": "App.js",
+  "scripts": {
+    "start": "electron .",
+    "test": "test"
+  },
+  "author": "Martin Kuchar",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "1.7.9",
+    "typings": "2.1.1"
+  },
+  "dependencies": {
+    "electron": "1.7.9"
+  }
+}
