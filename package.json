@@ -2,8 +2,12 @@
   "name": "pllplayer",
   "version": "1.0.0",
   "description": "PLLPlayer",
-  "main": "App.js",
+  "main": "./assemble/src/AppStarter.js",
   "scripts": {
+    "compile": "tsc --outDir assemble/src",
+    "copy-index": "copy .\\src\\index.html .\\assemble\\src\\index.html",
+    "assemble": "npm run compile && npm run copy-index",
+    "assemble-and-start": "npm run assemble && npm run start",
     "start": "electron .",
     "test": "test"
   },

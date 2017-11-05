@@ -1,5 +1,5 @@
-import { app, BrowserWindow } from 'electron';
-import Main from './src/Main';
+import { app } from 'electron';
+import Main from './Main';
 
 
 const main = new Main();
